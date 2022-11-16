@@ -1,0 +1,41 @@
+@import (css) "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap";
+@import (css) "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap";
+
+@font-family: 'IBM Plex Sans', sans-serif;
+@font-family-mono: 'IBM Plex Mono', Monaco, monospace;
+@font-size-body: 16px;
+@page-header-weight-title-text: 300;
+
+body {
+  font-family: @font-family;
+}
+
+.arco-page-header-title {
+  text-transform: uppercase;
+}
+
+.ace_gutter {
+  background-color: #fdfdfd !important;
+}
+
+.ace_cursor {
+  background-color: ligten(purple, 40%);
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  display: flex;
+}
+
+.debug {
+  background-color: lighten(limegreen, 40%);
+  backdrop-filter: opacity(0.3);
+}
+
+.dashed-bottom {
+  border-bottom-style: dashed;
+}
